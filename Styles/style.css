@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}
+
+
+h2 {
+
+text-align:center;
+
+}
+.PickerCon {
+
+    text-align:center;
+}
+.NumberInput {
+
+text-align:center;
+
+
+}
+
+#Submitter {
+
+margin:auto;
+display:block;
+border:1px solid black;
+padding:0.2rem;
+font-family:arial;
+
+&:hover {
+
+color:white;
+box-shadow:1px 1px black;
+background-color:rgb(150, 4, 4);
+
+}
+}
+
+.NumberInput label {
+
+    display:block;
+}
+.NumberInput input {
+
+margin-bottom:0.7rem;
+    
+}
